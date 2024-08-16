@@ -235,32 +235,32 @@ a {
 }
 .product_grid-cell1 {
   position: relative;
-  background: url(/metrology/images/grid1.png);
+  background: url(/images/grid1.png);
   background-size: cover;
 }
 .product_grid-cell2 {
   position: relative;
-  background: url(/metrology/images/grid2.png);
+  background: url(/images/grid2.png);
   background-size: cover;
 }
 .product_grid-cell3 {
   position: relative;
-  background: url(/metrology/images/grid3.png);
+  background: url(/images/grid3.png);
   background-size: cover;
 }
 .product_grid-cell4 {
   position: relative;
-  background: url(/metrology/images/grid4.png);
+  background: url(/images/grid4.png);
   background-size: cover;
 }
 .product_grid-cell5 {
   position: relative;
-  background: url(/metrology/images/grid5.png);
+  background: url(/images/grid5.png);
   background-size: cover;
 }
 .product_grid-cell6 {
   position: relative;
-  background: url(/metrology/images/grid6.png);
+  background: url(/images/grid6.png);
   background-size: cover;
 }
 
@@ -300,40 +300,40 @@ a {
   background-color: #1b3387;
 }
 .grid_application-cell2 {
-  background-image: url(/metrology/images/app_grid2.png);
+  background-image: url(/images/app_grid2.png);
 }
 .grid_application-cell3 {
-  background-image: url(/metrology/images/app_grid3.png);
+  background-image: url(/images/app_grid3.png);
 }
 .grid_application-cell4 {
-  background-image: url(/metrology/images/app_grid4.png);
+  background-image: url(/images/app_grid4.png);
 }
 .grid_application-cell5 {
-  background-image: url(/metrology/images/app_grid5.png);
+  background-image: url(/images/app_grid5.png);
 }
 .grid_application-cell6 {
-  background-image: url(/metrology/images/app_grid6.png);
+  background-image: url(/images/app_grid6.png);
 }
 .grid_application-cell7 {
-  background-image: url(/metrology/images/app_grid7.png);
+  background-image: url(/images/app_grid7.png);
 }
 .grid_application-cell8 {
-  background-image: url(/metrology/images/app_grid8.png);
+  background-image: url(/images/app_grid8.png);
 }
 .grid_application-cell9 {
-  background-image: url(/metrology/images/app_grid9.png);
+  background-image: url(/images/app_grid9.png);
 }
 .grid_application-cell10 {
-  background-image: url(/metrology/images/app_grid10.png);
+  background-image: url(/images/app_grid10.png);
 }
 .grid_application-cell11 {
-  background-image: url(/metrology/images/app_grid11.png);
+  background-image: url(/images/app_grid11.png);
 }
 .grid_application-cell12 {
-  background-image: url(/metrology/images/app_grid12.png);
+  background-image: url(/images/app_grid12.png);
 }
 .geography {
-  background-image: url(/metrology/images/map.png);
+  background-image: url(/images/map.png);
   background-size: 1270px 728px;
   background-repeat: no-repeat;
   background-position: 455px 87px;
@@ -412,37 +412,37 @@ a {
   background-color: #164c2b;
 }
 .grid_details-cell2 {
-  background-image: url(/metrology/images/details_grid2.png);
+  background-image: url(/images/details_grid2.png);
 }
 .grid_details-cell3 {
-  background-image: url(/metrology/images/details_grid3.png);
+  background-image: url(/images/details_grid3.png);
 }
 .grid_details-cell4 {
-  background-image: url(/metrology/images/details_grid4.png);
+  background-image: url(/images/details_grid4.png);
 }
 .grid_details-cell5 {
-  background-image: url(/metrology/images/details_grid5.png);
+  background-image: url(/images/details_grid5.png);
 }
 .grid_details-cell6 {
-  background-image: url(/metrology/images/details_grid6.png);
+  background-image: url(/images/details_grid6.png);
 }
 .grid_details-cell7 {
-  background-image: url(/metrology/images/details_grid7.png);
+  background-image: url(/images/details_grid7.png);
 }
 .grid_details-cell8 {
-  background-image: url(/metrology/images/details_grid8.png);
+  background-image: url(/images/details_grid8.png);
 }
 .grid_details-cell9 {
-  background-image: url(/metrology/images/details_grid9.png);
+  background-image: url(/images/details_grid9.png);
 }
 .grid_details-cell10 {
-  background-image: url(/metrology/images/details_grid10.png);
+  background-image: url(/images/details_grid10.png);
 }
 .grid_details-cell11 {
-  background-image: url(/metrology/images/details_grid11.png);
+  background-image: url(/images/details_grid11.png);
 }
 .grid_details-cell12 {
-  background-image: url(/metrology/images/details_grid12.png);
+  background-image: url(/images/details_grid12.png);
 }
 footer {
   background-color: #222222;
@@ -591,7 +591,7 @@ footer {
   top: 0;
   right: 0;
   z-index: -1;
-  background: url(/metrology/images/avto_prom.jfif);
+  background: url(/images/avto_prom.jfif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: 50%;
@@ -733,31 +733,31 @@ footer {
   background-color: #164c2b;
 }
 .grid_catalog-cell2 {
-  background-image: url(/metrology/images/kim500.png);
+  background-image: url(/images/kim500.png);
 }
 .grid_catalog-cell3 {
-  background-image: url(/metrology/images/kim1200.png);
+  background-image: url(/images/kim1200.png);
 }
 .grid_catalog-cell4 {
-  background-image: url(/metrology/images/kim1400.png);
+  background-image: url(/images/kim1400.png);
 }
 .grid_catalog-cell5 {
-  background-image: url(/metrology/images/kim1000.png);
+  background-image: url(/images/kim1000.png);
 }
 .grid_catalog-cell6 {
-  background-image: url(/metrology/images/kim500.png);
+  background-image: url(/images/kim500.png);
 }
 .grid_catalog-cell7 {
-  background-image: url(/metrology/images/kim500.png);
+  background-image: url(/images/kim500.png);
 }
 .grid_catalog-cell8 {
-  background-image: url(/metrology/images/kim1200.png);
+  background-image: url(/images/kim1200.png);
 }
 .grid_catalog-cell9 {
-  background-image: url(/metrology/images/kim1400.png);
+  background-image: url(/images/kim1400.png);
 }
 .grid_catalog-cell10 {
-  background-image: url(/metrology/images/kim1000.png);
+  background-image: url(/images/kim1000.png);
 }
 .product-info {
   display: flex;
@@ -868,7 +868,7 @@ footer {
   top: 0;
   right: 0;
   z-index: -1;
-  background: url(/metrology/images/korpus_izdeliya.jfif);
+  background: url(/images/korpus_izdeliya.jfif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 100%;
