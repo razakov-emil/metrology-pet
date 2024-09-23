@@ -290,47 +290,52 @@ a {
   font-weight: 500;
   line-height: 37px;
   text-align: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 .grid_application > div {
   padding: 30px;
   display: flex;
   align-items: end;
+  transition: 0.2s;
 }
-.grid_application-cell1 {
+#grid_application-cell1 {
   background-color: #1b3387;
+  transition: none;
 }
-.grid_application-cell2 {
-  background-image: url(/images/app_grid2.png);
+#grid_application-cell2 {
+  background: url(/images/app_grid2.png);
 }
-.grid_application-cell3 {
-  background-image: url(/images/app_grid3.png);
+#grid_application-cell3 {
+  background: url(/images/app_grid3.png);
 }
-.grid_application-cell4 {
-  background-image: url(/images/app_grid4.png);
+#grid_application-cell4 {
+  background: url(/images/app_grid4.png);
 }
-.grid_application-cell5 {
-  background-image: url(/images/app_grid5.png);
+#grid_application-cell5 {
+  background: url(/images/app_grid5.png);
 }
-.grid_application-cell6 {
-  background-image: url(/images/app_grid6.png);
+#grid_application-cell6 {
+  background: url(/images/app_grid6.png);
 }
-.grid_application-cell7 {
-  background-image: url(/images/app_grid7.png);
+#grid_application-cell7 {
+  background: url(/images/app_grid7.png);
 }
-.grid_application-cell8 {
-  background-image: url(/images/app_grid8.png);
+#grid_application-cell8 {
+  background: url(/images/app_grid8.png);
 }
-.grid_application-cell9 {
-  background-image: url(/images/app_grid9.png);
+#grid_application-cell9 {
+  background: url(/images/app_grid9.png);
 }
-.grid_application-cell10 {
-  background-image: url(/images/app_grid10.png);
+#grid_application-cell10 {
+  background: url(/images/app_grid10.png);
 }
-.grid_application-cell11 {
-  background-image: url(/images/app_grid11.png);
+#grid_application-cell11 {
+  background: url(/images/app_grid11.png);
 }
-.grid_application-cell12 {
-  background-image: url(/images/app_grid12.png);
+#grid_application-cell12 {
+  background: url(/images/app_grid12.png);
 }
 .geography {
   background-image: url(/images/map.png);
@@ -402,46 +407,49 @@ a {
   font-weight: 500;
   line-height: 37px;
   text-align: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 .grid_details > div {
   padding: 30px;
   display: flex;
   align-items: end;
 }
-.grid_details-cell1 {
+#grid_details-cell1 {
   background-color: #164c2b;
 }
-.grid_details-cell2 {
+#grid_details-cell2 {
   background-image: url(/images/details_grid2.png);
 }
-.grid_details-cell3 {
+#grid_details-cell3 {
   background-image: url(/images/details_grid3.png);
 }
-.grid_details-cell4 {
+#grid_details-cell4 {
   background-image: url(/images/details_grid4.png);
 }
-.grid_details-cell5 {
+#grid_details-cell5 {
   background-image: url(/images/details_grid5.png);
 }
-.grid_details-cell6 {
+#grid_details-cell6 {
   background-image: url(/images/details_grid6.png);
 }
-.grid_details-cell7 {
+#grid_details-cell7 {
   background-image: url(/images/details_grid7.png);
 }
-.grid_details-cell8 {
+#grid_details-cell8 {
   background-image: url(/images/details_grid8.png);
 }
-.grid_details-cell9 {
+#grid_details-cell9 {
   background-image: url(/images/details_grid9.png);
 }
-.grid_details-cell10 {
+#grid_details-cell10 {
   background-image: url(/images/details_grid10.png);
 }
-.grid_details-cell11 {
+#grid_details-cell11 {
   background-image: url(/images/details_grid11.png);
 }
-.grid_details-cell12 {
+#grid_details-cell12 {
   background-image: url(/images/details_grid12.png);
 }
 footer {
@@ -477,6 +485,7 @@ footer {
   margin-bottom: 20px;
 }
 .footer_contact {
+  font-family: "PT Sans";
   display: flex;
   margin-bottom: 29px;
 }
@@ -711,24 +720,27 @@ footer {
   align-items: end;
 }
 .grid_catalog-shade {
+  position: relative;
   display: flex;
   justify-content: center;
   background-color: #00000080;
   transition: 0.5s;
-  padding: 373px 0px 30px 0px;
+  width: 100%;
+  height: 100%;
 }
 .grid_catalog-shade:hover {
+  background-color: #164c2b;
+}
+.grid_catalog-shade > span {
+  position: absolute;
+  bottom: 30px;
+  transition: 0.5s;
+}
+.grid_catalog-shade:hover > span {
+  bottom: 50%;
   font-size: 28px;
   line-height: 24px;
-  background-color: #164c2b;
-  padding: 202px 0px 201px 0px;
 }
-/*
-.grid_catalog-shade > span {
-  padding-top: 99%;
-  display: block;
-}
-*/
 .grid_catalog-cell1 {
   background-color: #164c2b;
 }
@@ -960,7 +972,7 @@ footer {
   text-align: center;
 }
 .software-card__description {
-  font-family: Exo 2;
+  font-family: "Exo 2";
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -1069,4 +1081,174 @@ footer {
   max-width: 360px;
   max-height: 195px;
   padding-bottom: 30px;
+}
+.article-media__header-image {
+  position: relative;
+  width: 750px;
+  height: 750px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.article-media__header-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 150%;
+  max-height: 150%;
+}
+.grid_services {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 427px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+}
+.grid_services > div {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid_services-shade {
+  display: flex;
+  justify-content: center;
+  background-color: #0000004d;
+  transition: 0.5s;
+  width: 100%;
+  height: 100%;
+}
+.grid_services-shade:hover {
+  background-color: #00000080;
+}
+.grid_services-shade > span {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: min-content;
+}
+.grid_services-cell1 {
+  background-image: url(/images/service1.jfif);
+}
+.grid_services-cell2 {
+  background-image: url(/images/service2.jfif);
+}
+.grid_services-cell3 {
+  background-image: url(/images/service3.jfif);
+}
+.grid_services-cell4 {
+  background-image: url(/images/service4.jfif);
+}
+.contact-container {
+  padding: 60px 195px 60px 195px;
+}
+.contact-container__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-block {
+  max-width: 750px;
+}
+.contact-title {
+  margin-bottom: 60px;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+}
+.contact-requisite {
+  margin-top: 50px;
+}
+.requisite__title {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: left;
+  color: #222222;
+}
+.requisite__table {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #444444;
+}
+.podbor__button {
+  margin-top: 40px;
+  display: flex;
+  height: 60px;
+  width: 360px;
+  background-color: #e12126;
+  align-items: center;
+  justify-content: center;
+}
+.podbor__button > span {
+  font-family: "Exo 2";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: center;
+  color: #ffffff;
+}
+.feedback-block__title {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: left;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.feedback__form form {
+  display: flex;
+  flex-direction: column;
+}
+.feedback__form input {
+  height: 60px;
+  width: 750px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  color: #888888;
+  font-family: "Exo 2";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  border: solid 1px #ffffff4d;
+  padding-left: 20px;
+}
+.feedback__form textarea {
+  height: 120px;
+  width: 750px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  color: #888888;
+  font-family: "Exo 2";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  border: solid 1px #ffffff4d;
+  padding: 18px 0px 0px 20px;
+}
+.feedback__form button {
+  float: right;
+  height: 60px;
+  width: 230px;
+  background-color: #e12126;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  border: none;
 }
