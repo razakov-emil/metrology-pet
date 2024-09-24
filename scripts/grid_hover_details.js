@@ -10,7 +10,7 @@ for (let i = 1; i < gridItem.length; i++) {
       cell.style.borderBottom = "solid 1px #ffffff";
       cell.style.borderRight = "solid 1px #ffffff";
     });
-    gridItem[i].style.background = "#1b3387";
+    gridItem[i].style.background = "#164c2b";
   });
   gridItem[i].addEventListener("mouseleave", () => {
     gridDet.style.backgroundImage = "";
