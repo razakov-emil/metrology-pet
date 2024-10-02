@@ -21,6 +21,114 @@
     <title>Контакты</title>
   </head>
   <body>
+    <div class="banner-blur">
+      <div class="banner-window">
+        <img
+          src="/images/close-button.svg"
+          onclick="document.querySelector('.banner-blur').style.display='none'"
+          class="close-button"
+          alt="close"
+        />
+        <form action="" method="get" class="contact-form">
+          <label class="banner-window__title">Подобрать оборудование</label>
+          <div class="banner-window__parameters">
+            <label class="banner-window__subtitle"
+              >Параметры измеряемых деталей</label
+            >
+            <div class="banner-window__input-container">
+              <select name="type-of-details" id="type-of-details">
+                <option selected disabled hidden>Тип деталей, работ</option>
+                <option value="detail1">Деталь1</option>
+                <option value="detail2">Деталь2</option>
+                <option value="detail3">Деталь3</option>
+              </select>
+              <select name="partiya" id="batch">
+                <option selected disabled hidden>Партия</option>
+                <option value="batch1">Партия1</option>
+                <option value="batch2">Партия2</option>
+                <option value="batch3">Партия3</option>
+              </select>
+              <select name="gabarity" id="dimensions">
+                <option selected disabled hidden>Габариты</option>
+                <option value="dimension1">Габариты1</option>
+                <option value="dimension2">Габариты2</option>
+                <option value="dimension3">Габариты3</option>
+              </select>
+              <select name="precision" id="precision">
+                <option selected disabled hidden>Точность</option>
+                <option value="precision1">Точность1</option>
+                <option value="precision2">Точность2</option>
+                <option value="precision3">Точность3</option>
+              </select>
+            </div>
+          </div>
+          <div class="banner-window__contact-information">
+            <label class="banner-window__subtitle">
+              Контактная информация
+            </label>
+            <div class="banner-window__input-container">
+              <input
+                type="text"
+                class="contact__input"
+                name="contact__name"
+                placeholder="Имя"
+                required
+              />
+              <input
+                type="text"
+                class="contact__input"
+                name="contact__surname"
+                placeholder="Фамилия"
+                required
+              />
+              <input
+                type="text"
+                class="contact__input"
+                name="contact__organization"
+                placeholder="Организация"
+                required
+              />
+              <input
+                type="text"
+                class="contact__input"
+                name="contact__job-position"
+                placeholder="Должность"
+                required
+              />
+              <input
+                type="text"
+                class="contact__input"
+                name="contact__mail"
+                placeholder="E-mail"
+                required
+              />
+              <input
+                type="text"
+                class="contact__input"
+                name="contact__phone"
+                placeholder="Телефон"
+                required
+              />
+              <textarea
+                class="contact__comment-area"
+                name="comment"
+                placeholder="Комментарий"
+              ></textarea>
+            </div>
+            <div class="ye__wrapper">
+              <button type="submit" class="feedback__button">
+                Связаться с нами
+              </button>
+              <div class="contact-policy">
+                Отправляя форму, Вы соглашаетесь с <a href="">правилами</a>
+                обработки персональных данных и с
+                <a href="">политикой конфиденциальности</a>.
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
     <header class="header_alt">
       <a class="logo alt" href="/index.html">
         <img src="/images/logo_alt.png" alt="" />
@@ -75,9 +183,12 @@
                 <span>ОГРН: 1026402659018</span>
               </div>
             </div>
-            <a class="podbor__button">
+            <div
+              onclick="document.querySelector('.banner-blur').style.display='block'"
+              class="podbor__button"
+            >
               <span>Подобрать оборудование</span>
-            </a>
+            </div>
           </div>
           <div class="feedback-block">
             <div class="feedback-block__title">Обратная связь</div>
@@ -110,7 +221,7 @@
           </div>
         </div>
       </div>
-      <div style="position: relative; overflow: hidden">
+      <div style="position: relative; overflow: hidden; z-index: -1">
         <a
           href="https://yandex.ru/maps/org/lapik/1175529263/?utm_medium=mapframe&utm_source=maps"
           style="color: #eee; font-size: 12px; position: absolute; top: 0px"
@@ -136,7 +247,7 @@
     <footer>
       <div class="footer_container">
         <div class="footer_info">
-          <a class="logo" href="#">
+          <a class="logo" href="index.html">
             <img src="/images/logo.png" alt="" />
             <span>Лапик</span>
           </a>
@@ -168,24 +279,24 @@
               <a href="/index.html">Главная</a>
             </div>
             <div class="menu_link">
-              <a href="#">Отрасли применения</a>
+              <a href="/otrasly_primeneniya.html">Отрасли применения</a>
             </div>
             <div class="menu_link">
-              <a href="/index.html">Продукция</a>
+              <a href="/catalog.html">Продукция</a>
             </div>
             <div class="menu_link">
-              <a href="#">Измерения</a>
+              <a href="/details_measure.html">Измерения</a>
             </div>
           </div>
           <div class="footer_menu2">
             <div class="menu_link">
-              <a href="#">Софт</a>
+              <a href="/software.html">Софт</a>
             </div>
             <div class="menu_link">
-              <a href="#">Услуги</a>
+              <a href="/services.html">Услуги</a>
             </div>
             <div class="menu_link">
-              <a href="#">Контакты</a>
+              <a href="/contacts.html">Контакты</a>
             </div>
             <div class="menu_link">
               <a href="#">Информация</a>
